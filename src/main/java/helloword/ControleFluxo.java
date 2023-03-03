@@ -87,4 +87,8 @@ public class ControleFluxo {
 
         return conta.substring(0, posicao);
     }
+
+    public void qualQuinzena(int diaAtual) {
+        System.out.println((diaAtual <= 15) ? "Primeira quinzena" : "Segunda quinzena");
+    }
 }
