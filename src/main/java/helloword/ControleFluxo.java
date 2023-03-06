@@ -40,7 +40,7 @@ public class ControleFluxo {
     }
 
     // LOOPS
-    public void main(String nome) {
+    public void loops(String nome) {
         int i = 0;
 
         while (i < 2) {
